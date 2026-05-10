@@ -1,0 +1,25 @@
+Step 1: move typed folder under main folder.
+
+Step 2: Copy paste below code where you need typed content
+
+<!-- Element to contain animated typing -->
+  <span id="typeit"></span>
+
+
+Step 3:copy paste the below code before the closing tag of </body>
+
+<script src="typed/typed.min.js"></script>
+
+ <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#typeit', {
+      strings: ['Web Designer', 'Web Developer', 'Front End Developer', 'Apps Developer', 'Graphic Designer'],
+       typeSpeed: 50,
+            backSpeed: 20,
+            smartBackspace: false,
+            loop: true,
+    });
+  </script>
+
+*****************************************************
+--> Demo page https://mattboldt.github.io/typed.js/
